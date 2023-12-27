@@ -67,7 +67,8 @@ def main():
     st.markdown("""
        <style>
     .main {
-        background-color: #FFFFFF; /* Changed to plain white for better visibility */
+        background-color: #FFFFFF; /* White background */
+        color: #FF0000; /* Red text for better visibility in all modes */
     }
     .stButton>button {
         color: white;
@@ -87,6 +88,7 @@ def main():
         background-color: #45a049;
     }
 </style>
+
 
 
         """, unsafe_allow_html=True)
