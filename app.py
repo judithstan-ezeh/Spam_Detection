@@ -67,26 +67,27 @@ def main():
     st.markdown("""
         <style>
         .main {
-            background-color: #F5F5F5;
+        background-color: #FFFFFF; 
         }
         .stButton>button {
-            color: white;
-            background-color: #4CAF50;
-            border-radius: 10px;
-            border: none;
-            padding: 10px 24px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            transition-duration: 0.4s;
+        color: white;
+        background-color: #4CAF50;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
         }
         .stButton>button:hover {
-            background-color: #45a049;
+        background-color: #45a049;
         }
         </style>
+
         """, unsafe_allow_html=True)
     st.title("Spam Detection App")
     
