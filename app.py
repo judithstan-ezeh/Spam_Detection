@@ -119,7 +119,7 @@ def main():
         """)
         # Add developer's name at the bottom of the sidebar
         st.markdown("---")  # This adds a horizontal line for separation
-        st.markdown("Developed by [Judith Ofoedu]")
+        st.markdown("Developed by Judith Ofoedu")
 
 if __name__ == "__main__":
     main()
