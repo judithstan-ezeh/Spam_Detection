@@ -114,9 +114,10 @@ def main():
 
             # Visual feedback
             if prediction == 0:
-                st.success("This text is Not Spam.")
+                st.markdown("<p style='color:green; border: 1px solid green; padding: 10px;'>This text is Not Spam.</p>", unsafe_allow_html=True)
             else:
-                st.error("This text is Spam.")
+                st.markdown("<p style='color:red; border: 1px solid red; padding: 10px;'>This text is Spam.</p>", unsafe_allow_html=True)
+
 
     # Sidebar for additional information or settings
     with st.sidebar:
