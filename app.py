@@ -117,6 +117,9 @@ def main():
             This app uses a machine learning model to detect spam in text messages or emails.
             Simply enter the text and let the model predict its nature.
         """)
+        # Add developer's name at the bottom of the sidebar
+        st.markdown("---")  # This adds a horizontal line for separation
+        st.markdown("Developed by [Judith Ofoedu]")
 
 if __name__ == "__main__":
     main()
