@@ -68,7 +68,10 @@ def main():
        <style>
     .main {
         background-color: #FFFFFF; /* White background */
-        color: #FF0000; /* Red text for better visibility in all modes */
+        color: #0000FF; /* Blue text for better visibility */
+    }
+    h1 { /* Targeting the title specifically */
+        color: #0000FF; /* Blue text for the title */
     }
     .stButton>button {
         color: white;
@@ -88,6 +91,7 @@ def main():
         background-color: #45a049;
     }
 </style>
+
 
 
 
