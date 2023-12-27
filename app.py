@@ -1,10 +1,13 @@
 # importing necessary libraries
-from nltk.tokenize import word_tokenize
 import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+
 import string
 from sklearn.feature_extraction.text import CountVectorizer
-from nltk.corpus import stopwords
-# nltk.download('punkt')
+
 import pickle
 
 # importing the function file for preprocessing the text
