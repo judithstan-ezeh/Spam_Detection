@@ -65,11 +65,11 @@ vectorizer = load_vectorizer()
 def main():
         # Use Streamlit's theme options to customize colors, fonts, etc.
     st.markdown("""
-        <style>
-        .main {
-        background-color: #FFFFFF; 
-        }
-        .stButton>button {
+       <style>
+    .main {
+        background-color: #FFFFFF; /* Changed to plain white for better visibility */
+    }
+    .stButton>button {
         color: white;
         background-color: #4CAF50;
         border-radius: 10px;
@@ -82,11 +82,12 @@ def main():
         margin: 4px 2px;
         cursor: pointer;
         transition-duration: 0.4s;
-        }
-        .stButton>button:hover {
+    }
+    .stButton>button:hover {
         background-color: #45a049;
-        }
-        </style>
+    }
+</style>
+
 
         """, unsafe_allow_html=True)
     st.title("Spam Detection App")
